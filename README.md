@@ -2,14 +2,10 @@
 AniMoon store
 
 ### Stack
-*Main framework:* React.js
-
-*Store statement:* Redux
-
-*Static code analise:* Eslint + Prettier
-
-*Json Server* [typicode/json-server]('https://github.com/typicode/json-server') (for static DB). Need to install globally
-
+**Main framework:** React.js
+**Store statement:** Redux
+**Static code analise:** Eslint + Prettier
+**Json Server** [typicode/json-server]('https://github.com/typicode/json-server') (for static DB). Need to install globally
 `
 json-server --watch db.json
 `
