@@ -11,5 +11,5 @@ json-server --watch db.json
 ```
 
 ## Scripts
-`npm run dev`: Run dev server locale (localhost:5000)
+`npm run dev`: Run dev server locale (localhost:7500)
 `npm run start:db`: Run JSON Server
