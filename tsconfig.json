@@ -14,12 +14,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@cmp/*": ["./components/*"],
+      "@kj-elements/*": ["./components/KJElements/*"],
+    }
   },
   "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }],
-  "paths": {
-    "@/*": ["./src"],
-    "@cmp/*": ["./src/components"],
-  }
+  "references": [{ "path": "./tsconfig.node.json" }]
 }

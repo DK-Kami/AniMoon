@@ -12,7 +12,8 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': '/src',
-      '@cmp': '/components'
+      '@cmp': '/components',
+      "@kj-elements": '/src/components/KJElements',
     }
   },
   server: {
