@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "test.com",
+      "password": "test",
+      "name": "KJTest"
+    }
+  ],
+  "types": [
+    { "id": 1, "name": "Дакимакура" },
+    { "id": 2, "name": "Аниме фигурки" },
+    { "id": 3, "name": "Сладости" },
+    { "id": 5, "name": "Косплей" },
+    { "id": 6, "name": "Катаны" }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "name": "Felix",
+      "type_id": 1,
+      "images": [],
+      "price": 2800,
+      "discount": 2600
+    }
+  ]
+}
