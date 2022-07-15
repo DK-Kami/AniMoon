@@ -10,7 +10,7 @@ AniMoon store
 json-server --watch db.json
 `
 
-##Scripts
+## Scripts
 Run dev server locale (localhost:5000)
 `
 npm run dev
